@@ -1,6 +1,8 @@
 <?php
 session_start();
 
+error_reporting(E_ERROR);
+
 include('includes/functions.php');
 
 // if login form was submitted

@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 // did the user's browser send a cookie for the session?
 if( isset( $_COOKIE[ session_name() ] ) ) {
 
